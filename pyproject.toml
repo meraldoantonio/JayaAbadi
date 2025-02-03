@@ -1,19 +1,16 @@
 [tool.poetry]
 name = "jayaabadi"
 version = "0.1.0"
-description = "A PoC app to process purchase order PDFs with Streamlit and DynamoDB"
-authors = ["Your Name <your.email@example.com>"]
+description = ""
+authors = ["Meraldo Antonio <meraldo@.antonio@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.8"
-streamlit = "^1.20.0"
-pandas = "^1.5.0"
-boto3 = "^1.26.0"
-
-[tool.poetry.dev-dependencies]
-pytest = "^7.0.0"
+python = ">=3.9,<3.9.7 || >3.9.7,<4.0"
+pandas = "^2.2.3"
+boto3 = "^1.36.11"
+streamlit = "^1.41.1"
 
 [build-system]
-requires = ["poetry-core>=1.0.0"]
+requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
