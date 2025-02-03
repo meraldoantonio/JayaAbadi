@@ -1,0 +1,38 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+env/
+venv/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Poetry
+poetry.lock
+
+# VS Code settings
+.vscode/
+
+# Image folder (if you do not want to commit sample images)
+img/
+
+# Environment variables and secrets (e.g., AWS credentials, keys, config files)
+.env
+aws_secrets.json
+*.pem
+*.key
